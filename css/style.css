@@ -1,0 +1,108 @@
+/*font-family: 'Codystar', cursive;
+font-family: 'Lily Script One', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Engagement', cursive; */
+
+* {
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	min-width: 740px;
+	height: 100%;
+}
+
+section {
+	width: 100%;
+}
+
+h1 {
+	font-family: 'Engagement', cursive;
+	font-size: 150pt;
+	white-space:nowrap;
+	color: #7adeff;
+	text-shadow: 2px 2px 0px #000;
+}
+h5 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 40pt;
+	margin: 10px auto;
+	color: #000;
+}
+a {
+	color: #7adeff;
+	text-decoration: none;
+	text-shadow: 1px 1px 0px #000;
+}
+p {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 32pt;
+	color: #000;
+}
+p.author {
+	text-align: right;
+	font-size: 18pt;
+	color: #888;
+}
+.title {
+	position: absolute;
+	bottom: 0px;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	height: 325px;
+	margin: auto;
+	text-align: center;
+	background: rgba( 255, 255, 255, 0.5);
+}
+
+.slide {
+	width: 100%;
+	height: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	
+}
+.divider {
+	padding: 50px;
+	background: #FFF;
+	box-shadow: 0 0 10px #000;
+	position: relative;
+	z-index: 100;
+}
+
+.quote {
+	width: 80%;
+	margin: 0 auto;
+	text-align: justify;
+}
+.quote.end {
+	text-align: center;
+}
+p.credit {
+	text-align: right;
+	font-family:'Josefin Sans', sans-serif;
+	position: relative;
+	bottom:-95%;
+	color: #FFF;
+	right: 10px;
+	text-shadow: 1px 1px 0px #000;
+
+}
+
+.one { background: url('../images/dapper-day-1.JPG') 50% 0 no-repeat fixed; background-size: cover;}
+.two { background: url('../images/dapper-day-2.jpg') 50% 0 no-repeat fixed; background-size: cover;}
+.three { background: url('../images/dapper-day-3.jpg') 50% 0 no-repeat fixed; background-size: cover;}
+.four { background: url('../images/dapper-day-4.jpg') 50% 0 no-repeat fixed; background-size: cover;}
+.five { background: url('../images/dapper-day-5.jpg') 50% 0 no-repeat fixed; background-size: cover;}
+.six { background: url('../images/dapper-day-6.jpg') 50% 0 no-repeat fixed; background-size: cover;}
+.seven { background: url('../images/dapper-day-7.jpg') 50% 0 no-repeat fixed; background-size: cover;}
+.eight { background: url('../images/dapper-day-8.jpg') 50% 0 no-repeat fixed; background-size: cover;}
+.nine { background: url('../images/dapper-day-9.jpg') 50% 0 no-repeat fixed; background-size: cover;}
+.ten { background: url('../images/dapper-day-10.jpg') 50% 0 no-repeat fixed; background-size: cover;}
