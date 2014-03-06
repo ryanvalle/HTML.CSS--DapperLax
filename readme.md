@@ -6,3 +6,4 @@ A web browser! This plugin is really basic and only uses HTML and CSS to create 
 
 ## Known Issues
 * iOS browsers tend to break at rendering the background images properly. I suspect this may be due to the background-size: cover attribute and how iOS calculates the window size for the site. Potential fix? I'm sure a little javascript will do the trick...
+* THere are no comments in the code!!! I know...It's simple code so hopefully it's self explanitory enough for anybody wanting to utilize it.
